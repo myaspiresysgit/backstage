@@ -4,8 +4,8 @@ metadata:
   name: backstage-personal
   description: My personal Backstage instance running in GitHub Codespaces with GitHub OAuth
   annotations:
-    github.com/project-slug: myaspiresysgit/backstage
+    github.com/project-slug: yogesh.varadharajan@aspiresys.com/backstage
 spec:
   type: website
   lifecycle: experimental
-  owner: user:myaspiresysgit
+  owner: user:yogesh.varadharajan@aspiresys.com
