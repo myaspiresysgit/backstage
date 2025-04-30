@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-personal
+  description: My personal Backstage instance running in GitHub Codespaces with GitHub OAuth
+  annotations:
+    github.com/project-slug: myaspiresysgit/backstage
+spec:
+  type: website
+  lifecycle: experimental
+  owner: user:myaspiresysgit
