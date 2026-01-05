@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           TAG_PREFIX: v
           FORCE_WITHOUT_CHANGES: true
-          DEFAULT_BUMP: minor                # default bump is minor
+          DEFAULT_BUMP: patch               # default bump is minor
           MAJOR_STRING_TOKEN: "#major"       # triggers major bump
           PATCH_STRING_TOKEN: "#patch"       # triggers patch bump
           MINOR_STRING_TOKEN: "#minor"       # optional: minor bump override
